@@ -9,15 +9,6 @@
     "state": "not_completed"
   },
   {
-    "text": "Learn pentatonic shapes",
-    "category": "one_week",
-    "tags": [
-      "pentatonic",
-      "improvisation"
-    ],
-    "state": "in_progress"
-  },
-  {
     "text": "master vibrato: all types and speeds",
     "category": "daily",
     "tags": [
@@ -30,6 +21,184 @@
     "category": "one_day",
     "tags": [
       "improv"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "mix licks with harmony, chords, triads, scales",
+    "category": "one_day",
+    "tags": [
+      "improvising"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "triads, all string version, chord progression, maj & min",
+    "category": "daily",
+    "tags": [
+      "ear training",
+      "fretboard"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "improvise over backing track",
+    "category": "daily",
+    "tags": [
+      "improvise"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "improvise with moises",
+    "category": "daily",
+    "tags": [
+      "improvise"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "review a blim video, work on it",
+    "category": "two_three_days",
+    "tags": [
+      "technique"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "film yourself playing",
+    "category": "one_day",
+    "tags": [
+      "technique"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "ear train, sing: full scale, pents, arpegg triads through scale (Jens)",
+    "category": "daily",
+    "tags": [
+      "ear training"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "perfect bends, listen then prebend-reset-bend, also bend the scale",
+    "category": "daily",
+    "tags": [
+      "technique"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "string explorer, different key, do it to triplets, eighths and rhythms",
+    "category": "daily",
+    "tags": [
+      "technique"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "record yourself, check for legato sound",
+    "category": "daily",
+    "tags": [
+      "technique"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "blues you can use, re-learn a piece or some licks",
+    "category": "two_three_days",
+    "tags": [
+      "improvise"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "improvise over justin's jam vols, reference chord chart and notes",
+    "category": "one_day",
+    "tags": [
+      "improvise"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "practice - learn turnarounds, work them into improv",
+    "category": "one_day",
+    "tags": [
+      "improvise"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "play over changes",
+    "category": "one_day",
+    "tags": [
+      "improvise"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "blim licks, revisit a unit, play over medley",
+    "category": "one_day",
+    "tags": [
+      "improvise"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "chord voicings, review 7,11,13,4,6,9. Joe D shell and binder",
+    "category": "two_three_days",
+    "tags": [
+      "rhythm"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "justin's chord charts, dom 7th diagram (blim U3)",
+    "category": "one_day",
+    "tags": [
+      "rhythm"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "practice pet licks, play over backing track",
+    "category": "one_day",
+    "tags": [
+      "improvise"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "check timing on licks, record, listen",
+    "category": "one_day",
+    "tags": [
+      "timing"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "rhythm practice, play along with a simple progression, shuffle, record it, match up timing",
+    "category": "one_day",
+    "tags": [
+      "timing"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "keith wyatt 12 bar blues shuffle, all keys",
+    "category": "one_day",
+    "tags": [
+      "rhythm",
+      "technique"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "blend Pent scale frameworks - pick 2 patterns blend licks, transitions, note functions etc.",
+    "category": "one_day",
+    "tags": [
+      "pentatonic"
     ],
     "state": "not_completed"
   }
