@@ -28,6 +28,12 @@ sudo apt-get install tesseract-ocr
 python routine_processor.py manual
 ```
 
+**Continuous Entry Mode**: The manual entry now runs in continuous mode, allowing you to add multiple routines in one session:
+- After adding each routine, you can immediately start entering the next one
+- Type 'q' or 'quit' at any prompt to exit
+- Press Ctrl+C to quit at any time
+- State defaults to "not_completed" if you just press Enter
+
 ### Image Processing
 ```bash
 python routine_processor.py image path/to/image.jpg
@@ -65,6 +71,8 @@ The app generates JSON in this format:
 
 ## Features
 
+- **Continuous Manual Entry**: Add multiple routines in one session with easy exit options
+- **Smart Defaults**: State defaults to "not_completed" for faster entry
 - **Append Mode**: If JSON file exists, new routines are appended
 - **Create Mode**: If JSON file doesn't exist, creates new file
 - **OCR Processing**: Extracts text from images using Tesseract

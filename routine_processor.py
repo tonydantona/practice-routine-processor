@@ -51,35 +51,55 @@ class RoutineProcessor:
         print(f"Added routine: {text}")
     
     def manual_entry(self) -> None:
-        """Interactive manual entry of a practice routine."""
+        """Interactive manual entry of practice routines (continuous mode)."""
         print("\n=== Manual Routine Entry ===")
+        print("Enter routines one by one. Type 'q' or 'quit' to exit, or press Ctrl+C to quit.")
+        print("-" * 50)
         
-        # Get text
-        text = input("Enter practice routine text: ").strip()
-        if not text:
-            print("Error: Text cannot be empty.")
-            return
+        try:
+            while True:
+                # Get text
+                text = input("\nEnter practice routine text (or 'q' to quit): ").strip()
+                if text.lower() in ['q', 'quit']:
+                    break
+                if not text:
+                    print("Error: Text cannot be empty. Try again or type 'q' to quit.")
+                    continue
+                
+                # Get category
+                print(f"Available categories: {', '.join(self.valid_categories)}")
+                category = input("Select category: ").strip()
+                if category.lower() in ['q', 'quit']:
+                    break
+                if category not in self.valid_categories:
+                    print(f"Error: Invalid category. Must be one of: {', '.join(self.valid_categories)}")
+                    continue
+                
+                # Get tags
+                tags_input = input("Enter tags (comma-separated): ").strip()
+                if tags_input.lower() in ['q', 'quit']:
+                    break
+                tags = [tag.strip() for tag in tags_input.split(',') if tag.strip()]
+                
+                # Get state
+                print(f"Available states: {', '.join(self.valid_states)}")
+                state = input("Select state (default: not_completed): ").strip()
+                if state.lower() in ['q', 'quit']:
+                    break
+                if not state:
+                    state = "not_completed"
+                elif state not in self.valid_states:
+                    print(f"Error: Invalid state. Must be one of: {', '.join(self.valid_states)}")
+                    continue
+                
+                # Add the routine
+                self.add_routine(text, category, tags, state)
+                print("✓ Routine added successfully!")
+                
+        except KeyboardInterrupt:
+            print("\n\nExiting manual entry mode...")
         
-        # Get category
-        print(f"Available categories: {', '.join(self.valid_categories)}")
-        category = input("Select category: ").strip()
-        if category not in self.valid_categories:
-            print(f"Error: Invalid category. Must be one of: {', '.join(self.valid_categories)}")
-            return
-        
-        # Get tags
-        tags_input = input("Enter tags (comma-separated): ").strip()
-        tags = [tag.strip() for tag in tags_input.split(',') if tag.strip()]
-        
-        # Get state
-        print(f"Available states: {', '.join(self.valid_states)}")
-        state = input("Select state: ").strip()
-        if state not in self.valid_states:
-            print(f"Error: Invalid state. Must be one of: {', '.join(self.valid_states)}")
-            return
-        
-        # Add the routine
-        self.add_routine(text, category, tags, state)
+        print("Manual entry session completed.")
     
     def process_image(self, image_path: str) -> None:
         """Process an image to extract practice routines."""
