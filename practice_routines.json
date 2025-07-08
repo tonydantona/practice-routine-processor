@@ -1,0 +1,36 @@
+[
+  {
+    "text": "Practice major scales",
+    "category": "daily",
+    "tags": [
+      "scales",
+      "technique"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "Learn pentatonic shapes",
+    "category": "one_week",
+    "tags": [
+      "pentatonic",
+      "improvisation"
+    ],
+    "state": "in_progress"
+  },
+  {
+    "text": "master vibrato: all types and speeds",
+    "category": "daily",
+    "tags": [
+      "technique"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "target notes, roots only then simple pent licks",
+    "category": "one_day",
+    "tags": [
+      "improv"
+    ],
+    "state": "not_completed"
+  }
+]
