@@ -201,5 +201,121 @@
       "pentatonic"
     ],
     "state": "not_completed"
+  },
+  {
+    "text": "BYCU - revisit one lesson",
+    "category": "two_three_days",
+    "tags": [
+      "repertoire",
+      "improvise"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "transcribe a short lick from a song. incorporate it into pet licks.",
+    "category": "two_three_days",
+    "tags": [
+      "transcribe"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "Greg Koch blues book. revisit a lesson or learn a new song",
+    "category": "two_three_days",
+    "tags": [
+      "repertoire"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "take known licks and categorize for I, IV, V chords",
+    "category": "two_three_days",
+    "tags": [
+      "improvise"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "make a chart or list of what licks to avoid over certain chords",
+    "category": "two_three_days",
+    "tags": [
+      "improvise"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "threads",
+    "category": "two_three_days",
+    "tags": [
+      "improvise"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "take a pet lick: change fingering, play it backwards, play it in other pents, change dynamics, change rhythm",
+    "category": "two_three_days",
+    "tags": [
+      "improvise"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "play over songs (not backing tracks)",
+    "category": "one_day",
+    "tags": [
+      "improvise",
+      "ear training"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "listen and recognize chord changes (backing trks, blim playlist, any songs)",
+    "category": "two_three_days",
+    "tags": [
+      "ear traning"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "complete book of electric blues, learn or revisit one song",
+    "category": "two_three_days",
+    "tags": [
+      "repertoire",
+      "rhythm"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "add a favorite song to your repertoire",
+    "category": "one_week",
+    "tags": [
+      "repertoire"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "study a solo (hey joe, blues for TJ etc.)",
+    "category": "one_week",
+    "tags": [
+      "transcribe",
+      "ear training"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "do your own arrangement of a song",
+    "category": "one_week",
+    "tags": [
+      "repertoire"
+    ],
+    "state": "not_completed"
+  },
+  {
+    "text": "chord melody: revisit or learn a new piece",
+    "category": "one_week",
+    "tags": [
+      "repertoire"
+    ],
+    "state": "not_completed"
   }
 ]
